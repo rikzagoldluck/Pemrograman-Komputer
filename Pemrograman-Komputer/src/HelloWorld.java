@@ -1,6 +1,9 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        System.out.println("Assalamu'alaikum");
+        System.out.println(salam());
+    }
+
+    public static String salam(){
+        return "Assalamu'alaikum Rikza, Barakallahufiikum";
     }
 }
