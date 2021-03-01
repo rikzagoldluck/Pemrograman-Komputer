@@ -1,9 +1,12 @@
 public class HelloWorld {
+    public static String name = "Rikza";
+    public static int umur = 19;
+
     public static void main(String[] args) {
-        System.out.println(salam());
+        salam(HelloWorld.name, HelloWorld.umur);
     }
 
-    public static String salam(){
-        return "Assalamu'alaikum Rikza, Barakallahufiikum";
+    public static void salam(String name, int umur){
+        System.out.println("Assalamu'alaikum, nama saya  "+ name + ", umur saya " +umur);
     }
 }
